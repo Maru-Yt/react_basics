@@ -13,3 +13,39 @@ font-weight: bold;
   gap: 20px;
   flex-wrap: wrap;
 }
+.football {
+  border: 1px solid black;
+  justify-content: space-between;
+  border-radius: 12px;
+  padding: 1rem;
+}
+.football-container{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.football-img{
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.basketball {
+  border: 1px solid black;
+  border-radius: 12px;
+  padding: 1rem;
+}
+
+.basketball-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.basketball-img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+}
