@@ -8,11 +8,7 @@ font-weight: bold;
   border-radius: 12px;
   padding: 1rem;
 }
-.card-container{
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
-}
+
 .football {
   border: 1px solid black;
   justify-content: space-between;

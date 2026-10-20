@@ -1,31 +1,31 @@
-import { useState } from 'react'
 
-import './App.css'
-import Card from './card'
+
+import styles from './App.module.css'
+import Card from './components/Card'
 import Football from './football'
 import Basketball from './Basketball'
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
       <h1>Welcome اهلا و سهلا</h1>
-     <div className="card-container">
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
+      <div className={styles.cardcontainer}>
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
       </div>
       <div className="football-container">
-       <Football />
-       <Football />
-       <Football />
-       <Football />
-       <Football />
-       <Football />
+        <Football />
+        <Football />
+        <Football />
+        <Football />
+        <Football />
+        <Football />
       </div>
       <div className="basketball-container">
         <Basketball />
