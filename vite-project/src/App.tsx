@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-      <h1>Wilkommen!!!</h1>
+      <h1>Welcome اهلا و سهلا</h1>
      <div className="card-container">
       <Card />
       <Card />
