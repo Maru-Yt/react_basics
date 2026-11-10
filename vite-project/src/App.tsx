@@ -1,9 +1,7 @@
-
-
 import styles from './App.module.css'
-import Card from './components/Card'
-import Football from './football'
-import Basketball from './Basketball'
+import Card from './components/Card.tsx'
+import Football from './components/Football.tsx'
+import Basketball from './components/Basketball.tsx'
 
 function App() {
 
