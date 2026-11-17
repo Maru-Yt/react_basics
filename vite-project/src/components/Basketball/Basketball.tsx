@@ -1,13 +1,21 @@
 import styles from './Basketball.module.css'
 
-type Props = {}
+type Props = {
+  title: string
+  color: string
+  text: string
+  paragraph: string
+  image: string
+}
 
-export default function Basketball({ }: Props) {
+export default function Basketball({ title, color, text, paragraph, image }: Props) {
   return (
-    <div className={styles.basketball}>
-      <h3>Basketball</h3>
-      <img src="https://i.etsystatic.com/41269740/r/il/512a6b/5901702199/il_570xN.5901702199_4k9c.jpg" alt="Hero" className={styles['basketball-img']} />
-      <p>made by Al Brawe</p>
+    <div className={styles.basketball} style={{ backgroundColor: color }}>
+      <h3>{title}</h3>
+      <img src={image} alt="Hero" className={styles['basketball-img']} />
+      <p>{paragraph}</p>
+      <text>{text}</text>
+
     </div>
   )
 }

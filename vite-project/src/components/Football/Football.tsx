@@ -1,14 +1,20 @@
 import styles from './Football.module.css'
 
-type Props = {}
+type Props = {
+  title: string
+  text: string
+  paragraph: string
+  color: string
+  image: string
+}
 
-export default function Football({ }: Props) {
+export default function Football({ title, text, paragraph, color, image }: Props) {
   return (
-    <div className={styles.football}>
-      <h2>Football!</h2>
-      <h2>test</h2>
-      <img src="https://cdn.britannica.com/51/190751-050-147B93F7/soccer-ball-goal.jpg" alt="Hero" className={styles['football-img']} />
-      <p>made by Marwan</p>
+    <div className={styles.football} style={{ backgroundColor: color }}>
+      <h2>{title}</h2>
+      <p>{text}</p>
+      <img src={image} alt="Hero" className={styles['football-img']} />
+      <p>{paragraph}</p>
     </div>
   )
 }
