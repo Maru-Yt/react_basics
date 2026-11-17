@@ -3,3 +3,17 @@
   gap: 20px;
   flex-wrap: wrap;
 }
+
+.footballcontainer{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.basketballcontainer{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}

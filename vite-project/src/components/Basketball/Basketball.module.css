@@ -1,0 +1,11 @@
+.basketball {
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 1rem;
+}
+
+.basketball-img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}

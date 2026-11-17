@@ -1,9 +1,9 @@
 
 
 import styles from './App.module.css'
-import Card from './components/Card'
-import Football from './football'
-import Basketball from './Basketball'
+import Card from './components/Card/Card'
+import Football from './components/Football/Football'
+import Basketball from './components/Basketball/Basketball'
 
 function App() {
 
@@ -19,7 +19,7 @@ function App() {
         <Card />
         <Card />
       </div>
-      <div className="football-container">
+      <div className={styles.footballcontainer}>
         <Football />
         <Football />
         <Football />
@@ -27,7 +27,7 @@ function App() {
         <Football />
         <Football />
       </div>
-      <div className="basketball-container">
+      <div className={styles.basketballcontainer}>
         <Basketball />
         <Basketball />
         <Basketball />
@@ -39,5 +39,15 @@ function App() {
     </>
   )
 }
+
+
+
+
+
+
+
+
+
+
 
 export default App
